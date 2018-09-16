@@ -1,4 +1,3 @@
-
 <html>
 <head>
   <title>Online Store</title>
@@ -6,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="homestyle.css">
-   <link rel="stylesheet" href="regestration.css">
+  <link rel="stylesheet"  type="text/css" href="dropstyle.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -14,10 +13,9 @@
 <img src="C:\Users\Abhi\Desktop\images\imgrc0066024329.jpg" height="27%" width="100%"></img>
 <!--<div class="jumbotron">
   <div class="container text-center">
-    <img src="C:\Users\Abhi\Desktop\images\images.png"></img>
+     <img src="C:\Users\Abhi\Desktop\images\imgrc0066024329.jpg" height="27%" width="100%"></img>
   </div>
 </div>-->
-
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -27,12 +25,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
+	  </div>
       <a class="navbar-brand" href="#"></a>
-    </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="project.html">Home</a></li>
-        <li>
+        <li><a href="project.html">Home</a></li>
+         <li>
 				<li class="dropdown"><a href="#" class="dropdown-toggle"
 					data-toggle="dropdown">Products<span class="caret"></span></a>
 				<ul class="dropdown-menu">
@@ -56,34 +54,56 @@
     </div>
   </div>
 </nav>
+<div class="container">
+  <div class="row">
+     <div class="col-md-12">
+	   <h2 style="margin-bottom: 30px;">My Shopping List</h2>
+   </div>
+   <div class="col-md-12">
+   <table class="table table-bordered text-center">
+    <thead>
+	   <tr>
+	     <td>Image</td>
+		  <td>Name</td>
+		   <td>Price</td>
+		    <td>Quantity</td>
+		 </tr>
+		 </thead>
+		 <tbody>
+	      <tr>
+	     <td width="100"><img src="C:\Users\Abhi\Desktop\images\product-image-386661483.jpg" height="70"/></td>
+		  <td style="vertical-align: middle;">Shirts</td>
+		   <td style="vertical-align: middle;">₹ 2,145 INR</td>
+		    <td style="vertical-align: middle;" width="80">4</td>
+		 </tr>
+		 <tr>
+	     <td width="100"><img src="C:\Users\Abhi\Desktop\images\product-image-709954184_600x.jpg" height="70"/></td>
+		  <td style="vertical-align: middle;">Denim</td>
+		   <td style="vertical-align: middle;">₹ 3,789 INR</td>
+		    <td style="vertical-align: middle;" width="80">4</td>
+		 </tr>
+		 <tr>
+	     <td width="100"><img src="C:\Users\Abhi\Desktop\images\jacket3.jpg" height="70"/></td>
+		  <td style="vertical-align: middle;">jackets</td>
+		   <td style="vertical-align: middle;">₹ 4,256 INR</td>
+		    <td style="vertical-align: middle;" width="80">4</td>
+		 </tr>
+	</table>
+   </div>
+   <div class="col-md-12">
+    <div class="pull-right">
+	 	 <a href="#" class="btn">Back to Shopping</a>
+	 <a href="#" class="btn btn-success">Place Order</a>
+	</div>
+	</div>
+   </body>
+   </html>
 
-<form action="/action_page.php" style="border:1px solid #ccc">
-  <div class="container">
-    <h1><strong>Sign Up</h1></strong>
-    <p>Please fill in this form to create an account.</p>
-    <hr>
 
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
 
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-    
-    
-    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
 
-    <div class="clearfix">
-      <button type="submit" class="signupbtn">Sign Up</button>
-	  <button type="submit" class="cancelbtn">Cancel</button>
-    </div>
-  </div>
-</form>
 
-<footer class="container-fluid text-center">
-  <p>Copyright &copy 2018 Sugar Denim</p>  
-</footer>
-</body>
-</html>
+
+
+
